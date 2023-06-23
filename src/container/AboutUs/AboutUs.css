@@ -63,11 +63,19 @@
     }
     
     .app__aboutus-content_knife{
-        margin: 4rem 0;
-    }   
+        margin: 3rem 0;
+    } 
+    
+    .app__aboutus-content_knife img{
+        height: 600px;
+    }
+    .app__aboutus-overlay img{
+        height: 300px;
+        width: auto;
+    }
 }
 @media screen and (max-width: 650px) {
-    .app__abouus-overlay img{
+    .app__aboutus-overlay img{
         width: 80%;
         height: 320px;
     }
